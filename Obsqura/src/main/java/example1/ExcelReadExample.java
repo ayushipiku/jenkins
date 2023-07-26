@@ -22,7 +22,7 @@ public class ExcelReadExample {
 	public String readData(int rowNo,int cellNo) {
 
 		try {
-		file = new FileInputStream("C:\\Users\\saiju\\eclipse-workspace\\Obsqura\\src\\main\\resources\\Book1.xlsx");
+		file = new FileInputStream("C:\\Users\\saiju\\git\\jenkins\\Obsqura\\src\\main\\resources\\Book1.xlsx");
 
 		// Create Workbook instance holding reference to .xlsx file
 		workbook = new XSSFWorkbook(file);
